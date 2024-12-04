@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة بيع الكتب</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #343a40;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .book {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .book img {
+            max-width: 150px;
+            margin-bottom: 10px;
+        }
+        .book-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .book-author {
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .book-price {
+            color: #28a745;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .buy-btn {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .buy-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>مرحباً بك في منصة بيع الكتب</h1>
+    </header>
+    <div class="container">
+        <div class="book">
+            <img src="https://via.placeholder.com/150" alt="كتاب 1">
+            <div class="book-title">عنوان الكتاب</div>
+            <div class="book-author">اسم المؤلف</div>
+            <div class="book-price">السعر: $10</div>
+            <a href="#" class="buy-btn">شراء الآن</a>
+        </div>
+        <div class="book">
+            <img src="https://via.placeholder.com/150" alt="كتاب 2">
+            <div class="book-title">عنوان الكتاب</div>
+            <div class="book-author">اسم المؤلف</div>
+            <div class="book-price">السعر: $15</div>
+            <a href="#" class="buy-btn">شراء الآن</a>
+        </div>
+    </div>
+</body>
+</html>
